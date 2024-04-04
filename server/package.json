@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^3.21.0",
+    "egg-scripts": "^3.0.0",
+    "egg-view-nunjucks": "^2.3.0",
+    "koa2-connect": "^1.0.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^6.8.1",
+    "vite": "^5.2.0"
+  },
+  "egg": {
+    "typescript": true,
+    "declarations": true
+  }
+}

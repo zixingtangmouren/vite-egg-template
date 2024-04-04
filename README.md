@@ -1,0 +1,1 @@
+# vite-egg-template
